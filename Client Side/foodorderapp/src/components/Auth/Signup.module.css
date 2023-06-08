@@ -1,0 +1,52 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.form {
+  border: 4px solid rgb(24, 150, 150);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.input-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-box {
+  height: 30px;
+  width: 200px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.button {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(24, 150, 150);
+  border-radius: 30px;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(12, 68, 68);
+  color: white;
+  cursor: pointer;
+}
+
+.link {
+  color: rgb(69, 97, 158);
+}
